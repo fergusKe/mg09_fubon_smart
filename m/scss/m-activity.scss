@@ -1,0 +1,57 @@
+@import "compass/css3";
+@import "mixin";
+
+.main {
+    position: relative;
+    font-size: 27px;
+}
+.content {
+	position: relative;
+    font-size: 0;
+    p {
+		position: absolute;
+		font-size: 27px;
+	}
+	.step1-1 {
+        top: 530px;
+	    left: 55px;
+	}
+	.step1-2 {
+        top: 672px;
+	    left: 447px;
+	}
+	.step1-3 {
+        top: 1302px;
+	    left: 295px;
+	}
+	.step2-1 {
+        top: 1677px;
+	    left: 377px;
+	}
+	.step2-2 {
+        top: 2308px;
+	    left: 60px;
+	    width: 244px;
+	    text-align: justify;
+	}
+	.step2-3 {
+        top: 2308px;
+	    left: 373px;
+	    width: 244px;
+	    text-align: justify;
+	}
+	.step3-1 {
+        top: 3183px;
+	    left: 141px;
+	}
+	.step3-2 {
+        top: 3361px;
+	    left: 262px;
+	    span {
+	    	font-size: 33px;
+	    	color: #069d86;
+	    	font-weight: 700;
+	    }
+	}
+}
+
